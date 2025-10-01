@@ -12,9 +12,10 @@ public class MainApp {
         int secondNum = scan.nextInt();
 
         Calculator calc =new Calculator();
-        int result = calc.add(2,5);
-        int result2 = calc.subtract(2,5);
-        System.out.println("Result: " + result);
+        int result = calc.add(firstNum,secondNum);
+        int result2 = calc.subtract(firstNum,secondNum);
+        System.out.println(result);
+        System.out.println(result2);
 
         scan.close();
     }
