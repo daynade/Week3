@@ -5,5 +5,8 @@ public class Calculator {
     {
         return firstNum + secondNum;
     }
-    //Adding subtract/divide/multiplication later
+    public int subtract(int firstNum, int secondNum)
+    {
+        return firstNum - secondNum;
+    }
 }
