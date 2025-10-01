@@ -19,7 +19,13 @@ public class MainApp {
         System.out.println("Addition: "+result);
         System.out.println("Subtraction: "+result2);
         System.out.println("Multiplication: "+result3);
-        System.out.println("Division: "+result4);
+        if(result4 == 0){
+            System.out.println("Can't divide by zero");
+        }
+        else{
+            System.out.println("Division: "+result4);
+        }
+
 
         scan.close();
     }
