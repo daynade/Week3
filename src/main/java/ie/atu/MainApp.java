@@ -12,7 +12,8 @@ public class MainApp {
         int secondNum = scan.nextInt();
 
         Calculator calc =new Calculator();
-        int result = calc.add(2,1);
+        int result = calc.add(2,5);
+        int result2 = calc.subtract(2,5);
         System.out.println("Result: " + result);
 
         scan.close();
