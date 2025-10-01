@@ -15,9 +15,14 @@ public class Calculator {
     }
     public int divide(int firstNum, int secondNum)
     {
-        if(firstNum == 0||secondNum == 0) {
-        return 0;
-        }
         return firstNum / secondNum;
+    }
+    public int power(int firstNum, int secondNum)
+    {
+        return firstNum ^ secondNum ;
+    }
+    public int modulo(int firstNum, int secondNum)
+    {
+        return firstNum % secondNum;
     }
 }
