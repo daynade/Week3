@@ -15,9 +15,11 @@ public class MainApp {
         int result = calc.add(firstNum,secondNum);
         int result2 = calc.subtract(firstNum,secondNum);
         int result3 = calc.multiply(firstNum,secondNum);
+        int result4 = calc.divide(firstNum,secondNum);
         System.out.println("Addition: "+result);
         System.out.println("Subtraction: "+result2);
         System.out.println("Multiplication: "+result3);
+        System.out.println("Division: "+result4);
 
         scan.close();
     }
