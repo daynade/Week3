@@ -13,5 +13,8 @@ public class MainApp {
 
         Calculator calc =new Calculator();
         int result = calc.add(2,1);
+        System.out.println("Result: " + result);
+
+        scan.close();
     }
 }
