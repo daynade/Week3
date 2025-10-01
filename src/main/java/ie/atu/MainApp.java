@@ -14,8 +14,10 @@ public class MainApp {
         Calculator calc =new Calculator();
         int result = calc.add(firstNum,secondNum);
         int result2 = calc.subtract(firstNum,secondNum);
-        System.out.println(result);
-        System.out.println(result2);
+        int result3 = calc.multiply(firstNum,secondNum);
+        System.out.println("Addition: "+result);
+        System.out.println("Subtraction: "+result2);
+        System.out.println("Multiplication: "+result3);
 
         scan.close();
     }
